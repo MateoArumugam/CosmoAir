@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d3367b;
+    color: white;
+    text-align: center;
+    background: url("Home.png");
+    background-size: cover;
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+header p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+header #logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.menu-item :hover{
+    transform: scale(130%);
+}
